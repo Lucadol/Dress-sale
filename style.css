@@ -3,6 +3,12 @@
     src: url(./assets/fonts/Mattone-Regular.otf);
     font-family: Voyage;
     src: url(./assets/fonts/FontsFree-Net-Dream-Avenue.ttf);
+
+    font-family: 'mattoneregular';
+    src: url('/assets/fonts/mattone-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/mattone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -32,7 +38,7 @@ body {
         width: 50%;
         margin: 0 auto;
         text-align: center;
-        font-family: "Mattone", serif;
+        font-family: 'mattoneregular', serif;
         font-size: 1.2rem;
     }
 
@@ -100,7 +106,7 @@ body {
     .liens li {
         list-style: none;
         padding : 0 10% 0 10%;
-        font-family: "Mattone", serif;
+        font-family: 'mattoneregular', serif;
     }
 
     .preorder-now {
@@ -110,7 +116,7 @@ body {
     }
 
     .preorder-now  p {
-        font-family: "Mattone", serif;
+        font-family: 'mattoneregular', serif;
         position: absolute;
         top: 550px; left: 100px;
         padding: 0;
@@ -174,7 +180,7 @@ body {
         margin: 0 auto;
         margin-left: 30px;
         text-align: end;
-        font-family: "Mattone", serif;
+        font-family: 'mattoneregular', serif;
         font-size: 0.9rem;
     }
 
