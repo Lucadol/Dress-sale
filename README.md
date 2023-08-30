@@ -4,4 +4,4 @@ I designed the home page for a dress sales site. I drew a lot of inspiration fro
 site link : https://lucadol.github.io/Dress-sale/
 
 ## Overview :<br>
-![Vitrine](https://github.com/Lucadol/Dress-sale/assets/130574901/73d73965-9b47-4389-bd9b-950225399a2a)
+![vitrine2](https://github.com/Lucadol/Dress-sale/assets/130574901/5f6014c5-f35a-49bb-8c9c-af0dd5fda8b5)
