@@ -3,13 +3,23 @@
     src: url(./assets/fonts/Mattone-Regular.otf);
     font-family: Voyage;
     src: url(./assets/fonts/FontsFree-Net-Dream-Avenue.ttf);
+    }
 
-    font-family: 'mattoneregular';
-    src: url('/assets/fonts/mattone-regular-webfont.woff2') format('woff2'),
-         url('/assets/fonts/mattone-regular-webfont.woff') format('woff');
+ @font-face {
+    font-family: mattoneregular;
+    src: url(/assets/fonts/mattone-regular-webfont.woff2) format('woff2'),
+        url(/assets/fonts/mattone-regular-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
-}
+    }
+
+@font-face {
+    font-family: dream_avenueregular;
+    src: url('/assets/fonts/fontsfree-net-dream-avenue-webfont.woff2') format('woff2'),
+         url('/assets/fonts/fontsfree-net-dream-avenue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
 
 body {
     margin: 0;
@@ -66,7 +76,7 @@ body {
     }
 
     .feelings h2 {
-        font-family: "voyage", serif;
+        font-family: 'dream_avenueregular', serif;
         font-size: 9rem;
         text-align: center;
         writing-mode: vertical-lr;
